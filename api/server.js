@@ -5,6 +5,6 @@ const server = express();
 server.use(express.json());
 
 server.get('/', (req, res) => {
-    res.send("<h1>webauth-iii-chalenge</h1>");
+    res.send("<h1>webauth-iii-challenge</h1>");
   });
   module.exports = server;
